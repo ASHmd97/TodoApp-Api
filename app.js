@@ -6,6 +6,7 @@ require("dotenv").config();
 const morgan = require("morgan");
 const port = process.env.PORT;
 require("./db");
+const cors = require("cors");
 // ------------------------------------------------------------------------------
 
 // Middleware
