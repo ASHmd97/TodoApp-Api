@@ -1,4 +1,4 @@
-const AppError = require("../Utils/appError");
+const AppError = require("../Utils/AppError");
 const Todo = require("../Models/todoModel");
 
 const getAllTodos = async (req, res) => {

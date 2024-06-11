@@ -1,5 +1,5 @@
 const Joi = require("joi");
-const AppError = require("./appError");
+const AppError = require("./AppError");
 const jwt = require("jsonwebtoken");
 
 require('dotenv').config()
